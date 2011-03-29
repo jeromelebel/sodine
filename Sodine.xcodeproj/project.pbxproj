@@ -55,6 +55,22 @@
 		0200DB1913428E560049713F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0200DA62134275380049713F /* Foundation.framework */; };
 		0200DB211342A2450049713F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0200DB201342A2450049713F /* libz.dylib */; };
 		0200DB221342A2680049713F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0200DB201342A2450049713F /* libz.dylib */; };
+		0200DB231342A4FF0049713F /* tun.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DACB134278350049713F /* tun.c */; };
+		0200DB241342A5040049713F /* dns.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DABB134278350049713F /* dns.c */; };
+		0200DB251342A50A0049713F /* read.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAC9134278350049713F /* read.c */; };
+		0200DB261342A5110049713F /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DABD134278350049713F /* encoding.c */; };
+		0200DB271342A5160049713F /* login.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAC3134278350049713F /* login.c */; };
+		0200DB281342A51F0049713F /* base32.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAB3134278350049713F /* base32.c */; };
+		0200DB291342A5230049713F /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAB5134278350049713F /* base64.c */; };
+		0200DB2A1342A5280049713F /* base128.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAB1134278350049713F /* base128.c */; };
+		0200DB2B1342A5300049713F /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAC6134278350049713F /* md5.c */; };
+		0200DB2C1342A5340049713F /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAB9134278350049713F /* common.c */; };
+		0200DB2D1342A53C0049713F /* iodine.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAC1134278350049713F /* iodine.c */; };
+		0200DB2E1342A5420049713F /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAB7134278350049713F /* client.c */; };
+		0200DB2F1342A54F0049713F /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DACF134278350049713F /* util.c */; };
+		0200DB311342A5600049713F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0200DB301342A5600049713F /* libz.dylib */; };
+		0200DB331342A6490049713F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAF5134289B20049713F /* main.m */; };
+		0200DB341342A64D0049713F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAF5134289B20049713F /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -175,6 +191,7 @@
 		0200DAF7134289B20049713F /* test_iodined.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = test_iodined.1; sourceTree = "<group>"; };
 		0200DB1E13428E560049713F /* test-iodined copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "test-iodined copy"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0200DB201342A2450049713F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = SDKs/MacOSX10.6.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
+		0200DB301342A5600049713F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +199,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0200DB311342A5600049713F /* libz.dylib in Frameworks */,
 				0200DA61134275380049713F /* UIKit.framework in Frameworks */,
 				0200DA63134275380049713F /* Foundation.framework in Frameworks */,
 				0200DA65134275380049713F /* CoreGraphics.framework in Frameworks */,
@@ -246,8 +264,8 @@
 		0200DA5F134275380049713F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0200DB321342A5760049713F /* iOS */,
 				0200DB201342A2450049713F /* libz.dylib */,
-				0200DA60134275380049713F /* UIKit.framework */,
 				0200DA62134275380049713F /* Foundation.framework */,
 				0200DA64134275380049713F /* CoreGraphics.framework */,
 			);
@@ -431,6 +449,15 @@
 			path = "test-iodined";
 			sourceTree = "<group>";
 		};
+		0200DB321342A5760049713F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0200DB301342A5600049713F /* libz.dylib */,
+				0200DA60134275380049713F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -575,7 +602,20 @@
 				0200DA6E134275380049713F /* main.m in Sources */,
 				0200DA71134275380049713F /* SodineAppDelegate.m in Sources */,
 				0200DA77134275380049713F /* SodineViewController.m in Sources */,
+				0200DB231342A4FF0049713F /* tun.c in Sources */,
+				0200DB241342A5040049713F /* dns.c in Sources */,
+				0200DB251342A50A0049713F /* read.c in Sources */,
+				0200DB261342A5110049713F /* encoding.c in Sources */,
+				0200DB271342A5160049713F /* login.c in Sources */,
+				0200DB281342A51F0049713F /* base32.c in Sources */,
+				0200DB291342A5230049713F /* base64.c in Sources */,
 				0200DAF313427F820049713F /* base64u.c in Sources */,
+				0200DB2A1342A5280049713F /* base128.c in Sources */,
+				0200DB2B1342A5300049713F /* md5.c in Sources */,
+				0200DB2C1342A5340049713F /* common.c in Sources */,
+				0200DB2D1342A53C0049713F /* iodine.c in Sources */,
+				0200DB2E1342A5420049713F /* client.c in Sources */,
+				0200DB2F1342A54F0049713F /* util.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +631,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0200DB331342A6490049713F /* main.m in Sources */,
 				0200DB0413428A5D0049713F /* tun.c in Sources */,
 				0200DAFE13428A2A0049713F /* dns.c in Sources */,
 				0200DB0313428A5B0049713F /* read.c in Sources */,
@@ -612,6 +653,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0200DB341342A64D0049713F /* main.m in Sources */,
 				0200DB0A13428E560049713F /* tun.c in Sources */,
 				0200DB0B13428E560049713F /* dns.c in Sources */,
 				0200DB0C13428E560049713F /* read.c in Sources */,
