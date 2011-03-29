@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SodineTests' target in the 'SodineTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

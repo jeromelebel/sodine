@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0200DA61134275380049713F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0200DA60134275380049713F /* UIKit.framework */; };
+		0200DA63134275380049713F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0200DA62134275380049713F /* Foundation.framework */; };
+		0200DA65134275380049713F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0200DA64134275380049713F /* CoreGraphics.framework */; };
+		0200DA6B134275380049713F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0200DA69134275380049713F /* InfoPlist.strings */; };
+		0200DA6E134275380049713F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200DA6D134275380049713F /* main.m */; };
+		0200DA71134275380049713F /* SodineAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200DA70134275380049713F /* SodineAppDelegate.m */; };
+		0200DA74134275380049713F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0200DA72134275380049713F /* MainWindow.xib */; };
+		0200DA77134275380049713F /* SodineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200DA76134275380049713F /* SodineViewController.m */; };
+		0200DA7A134275380049713F /* SodineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0200DA78134275380049713F /* SodineViewController.xib */; };
+		0200DA81134275380049713F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0200DA60134275380049713F /* UIKit.framework */; };
+		0200DA82134275380049713F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0200DA62134275380049713F /* Foundation.framework */; };
+		0200DA83134275380049713F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0200DA64134275380049713F /* CoreGraphics.framework */; };
+		0200DA8B134275380049713F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0200DA89134275380049713F /* InfoPlist.strings */; };
+		0200DA8E134275380049713F /* SodineTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0200DA8D134275380049713F /* SodineTests.h */; };
+		0200DA90134275380049713F /* SodineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200DA8F134275380049713F /* SodineTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0200DA84134275380049713F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0200DA53134275370049713F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0200DA5B134275380049713F;
+			remoteInfo = Sodine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0200DA5C134275380049713F /* Sodine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sodine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0200DA60134275380049713F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0200DA62134275380049713F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0200DA64134275380049713F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0200DA68134275380049713F /* Sodine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sodine-Info.plist"; sourceTree = "<group>"; };
+		0200DA6A134275380049713F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0200DA6C134275380049713F /* Sodine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sodine-Prefix.pch"; sourceTree = "<group>"; };
+		0200DA6D134275380049713F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0200DA6F134275380049713F /* SodineAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SodineAppDelegate.h; sourceTree = "<group>"; };
+		0200DA70134275380049713F /* SodineAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SodineAppDelegate.m; sourceTree = "<group>"; };
+		0200DA73134275380049713F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0200DA75134275380049713F /* SodineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SodineViewController.h; sourceTree = "<group>"; };
+		0200DA76134275380049713F /* SodineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SodineViewController.m; sourceTree = "<group>"; };
+		0200DA79134275380049713F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SodineViewController.xib; sourceTree = "<group>"; };
+		0200DA80134275380049713F /* SodineTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SodineTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0200DA88134275380049713F /* SodineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SodineTests-Info.plist"; sourceTree = "<group>"; };
+		0200DA8A134275380049713F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0200DA8C134275380049713F /* SodineTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SodineTests-Prefix.pch"; sourceTree = "<group>"; };
+		0200DA8D134275380049713F /* SodineTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SodineTests.h; sourceTree = "<group>"; };
+		0200DA8F134275380049713F /* SodineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SodineTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0200DA59134275380049713F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0200DA61134275380049713F /* UIKit.framework in Frameworks */,
+				0200DA63134275380049713F /* Foundation.framework in Frameworks */,
+				0200DA65134275380049713F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0200DA7C134275380049713F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0200DA81134275380049713F /* UIKit.framework in Frameworks */,
+				0200DA82134275380049713F /* Foundation.framework in Frameworks */,
+				0200DA83134275380049713F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0200DA51134275370049713F = {
+			isa = PBXGroup;
+			children = (
+				0200DA66134275380049713F /* Sodine */,
+				0200DA86134275380049713F /* SodineTests */,
+				0200DA5F134275380049713F /* Frameworks */,
+				0200DA5D134275380049713F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0200DA5D134275380049713F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0200DA5C134275380049713F /* Sodine.app */,
+				0200DA80134275380049713F /* SodineTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0200DA5F134275380049713F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0200DA60134275380049713F /* UIKit.framework */,
+				0200DA62134275380049713F /* Foundation.framework */,
+				0200DA64134275380049713F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0200DA66134275380049713F /* Sodine */ = {
+			isa = PBXGroup;
+			children = (
+				0200DA6F134275380049713F /* SodineAppDelegate.h */,
+				0200DA70134275380049713F /* SodineAppDelegate.m */,
+				0200DA72134275380049713F /* MainWindow.xib */,
+				0200DA75134275380049713F /* SodineViewController.h */,
+				0200DA76134275380049713F /* SodineViewController.m */,
+				0200DA78134275380049713F /* SodineViewController.xib */,
+				0200DA67134275380049713F /* Supporting Files */,
+			);
+			path = Sodine;
+			sourceTree = "<group>";
+		};
+		0200DA67134275380049713F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0200DA68134275380049713F /* Sodine-Info.plist */,
+				0200DA69134275380049713F /* InfoPlist.strings */,
+				0200DA6C134275380049713F /* Sodine-Prefix.pch */,
+				0200DA6D134275380049713F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0200DA86134275380049713F /* SodineTests */ = {
+			isa = PBXGroup;
+			children = (
+				0200DA8D134275380049713F /* SodineTests.h */,
+				0200DA8F134275380049713F /* SodineTests.m */,
+				0200DA87134275380049713F /* Supporting Files */,
+			);
+			path = SodineTests;
+			sourceTree = "<group>";
+		};
+		0200DA87134275380049713F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0200DA88134275380049713F /* SodineTests-Info.plist */,
+				0200DA89134275380049713F /* InfoPlist.strings */,
+				0200DA8C134275380049713F /* SodineTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0200DA5B134275380049713F /* Sodine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0200DA93134275380049713F /* Build configuration list for PBXNativeTarget "Sodine" */;
+			buildPhases = (
+				0200DA58134275380049713F /* Sources */,
+				0200DA59134275380049713F /* Frameworks */,
+				0200DA5A134275380049713F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sodine;
+			productName = Sodine;
+			productReference = 0200DA5C134275380049713F /* Sodine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0200DA7F134275380049713F /* SodineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0200DA96134275380049713F /* Build configuration list for PBXNativeTarget "SodineTests" */;
+			buildPhases = (
+				0200DA7B134275380049713F /* Sources */,
+				0200DA7C134275380049713F /* Frameworks */,
+				0200DA7D134275380049713F /* Resources */,
+				0200DA7E134275380049713F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0200DA85134275380049713F /* PBXTargetDependency */,
+			);
+			name = SodineTests;
+			productName = SodineTests;
+			productReference = 0200DA80134275380049713F /* SodineTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0200DA53134275370049713F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0200DA56134275370049713F /* Build configuration list for PBXProject "Sodine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0200DA51134275370049713F;
+			productRefGroup = 0200DA5D134275380049713F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0200DA5B134275380049713F /* Sodine */,
+				0200DA7F134275380049713F /* SodineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0200DA5A134275380049713F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0200DA6B134275380049713F /* InfoPlist.strings in Resources */,
+				0200DA74134275380049713F /* MainWindow.xib in Resources */,
+				0200DA7A134275380049713F /* SodineViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0200DA7D134275380049713F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0200DA8B134275380049713F /* InfoPlist.strings in Resources */,
+				0200DA8E134275380049713F /* SodineTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0200DA7E134275380049713F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0200DA58134275380049713F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0200DA6E134275380049713F /* main.m in Sources */,
+				0200DA71134275380049713F /* SodineAppDelegate.m in Sources */,
+				0200DA77134275380049713F /* SodineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0200DA7B134275380049713F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0200DA90134275380049713F /* SodineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0200DA85134275380049713F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0200DA5B134275380049713F /* Sodine */;
+			targetProxy = 0200DA84134275380049713F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0200DA69134275380049713F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0200DA6A134275380049713F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0200DA72134275380049713F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0200DA73134275380049713F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0200DA78134275380049713F /* SodineViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0200DA79134275380049713F /* en */,
+			);
+			name = SodineViewController.xib;
+			sourceTree = "<group>";
+		};
+		0200DA89134275380049713F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0200DA8A134275380049713F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0200DA91134275380049713F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0200DA92134275380049713F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		0200DA94134275380049713F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sodine/Sodine-Prefix.pch";
+				INFOPLIST_FILE = "Sodine/Sodine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0200DA95134275380049713F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sodine/Sodine-Prefix.pch";
+				INFOPLIST_FILE = "Sodine/Sodine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0200DA97134275380049713F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sodine.app/Sodine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SodineTests/SodineTests-Prefix.pch";
+				INFOPLIST_FILE = "SodineTests/SodineTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0200DA98134275380049713F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sodine.app/Sodine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SodineTests/SodineTests-Prefix.pch";
+				INFOPLIST_FILE = "SodineTests/SodineTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0200DA56134275370049713F /* Build configuration list for PBXProject "Sodine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0200DA91134275380049713F /* Debug */,
+				0200DA92134275380049713F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0200DA93134275380049713F /* Build configuration list for PBXNativeTarget "Sodine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0200DA94134275380049713F /* Debug */,
+				0200DA95134275380049713F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0200DA96134275380049713F /* Build configuration list for PBXNativeTarget "SodineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0200DA97134275380049713F /* Debug */,
+				0200DA98134275380049713F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0200DA53134275370049713F /* Project object */;
+}
