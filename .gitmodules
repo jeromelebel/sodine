@@ -1,0 +1,3 @@
+[submodule "Libraries/iodine"]
+	path = Libraries/iodine
+	url = git@github.com:jeromelebel/iodine.git
