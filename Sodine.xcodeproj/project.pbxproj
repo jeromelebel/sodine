@@ -22,6 +22,37 @@
 		0200DA8B134275380049713F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0200DA89134275380049713F /* InfoPlist.strings */; };
 		0200DA8E134275380049713F /* SodineTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0200DA8D134275380049713F /* SodineTests.h */; };
 		0200DA90134275380049713F /* SodineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200DA8F134275380049713F /* SodineTests.m */; };
+		0200DAE613427A000049713F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0200DA62134275380049713F /* Foundation.framework */; };
+		0200DAF313427F820049713F /* base64u.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAF113427F820049713F /* base64u.c */; };
+		0200DAF8134289EA0049713F /* base32.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAB3134278350049713F /* base32.c */; };
+		0200DAF913428A0D0049713F /* base128.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAB1134278350049713F /* base128.c */; };
+		0200DAFA13428A130049713F /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAB5134278350049713F /* base64.c */; };
+		0200DAFB13428A190049713F /* base64u.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAF113427F820049713F /* base64u.c */; };
+		0200DAFC13428A200049713F /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAB7134278350049713F /* client.c */; };
+		0200DAFD13428A250049713F /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAB9134278350049713F /* common.c */; };
+		0200DAFE13428A2A0049713F /* dns.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DABB134278350049713F /* dns.c */; };
+		0200DAFF13428A300049713F /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DABD134278350049713F /* encoding.c */; };
+		0200DB0113428A4F0049713F /* login.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAC3134278350049713F /* login.c */; };
+		0200DB0213428A540049713F /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAC6134278350049713F /* md5.c */; };
+		0200DB0313428A5B0049713F /* read.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAC9134278350049713F /* read.c */; };
+		0200DB0413428A5D0049713F /* tun.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DACB134278350049713F /* tun.c */; };
+		0200DB0613428A660049713F /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DACF134278350049713F /* util.c */; };
+		0200DB0713428DE30049713F /* iodine.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAC1134278350049713F /* iodine.c */; };
+		0200DB0A13428E560049713F /* tun.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DACB134278350049713F /* tun.c */; };
+		0200DB0B13428E560049713F /* dns.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DABB134278350049713F /* dns.c */; };
+		0200DB0C13428E560049713F /* read.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAC9134278350049713F /* read.c */; };
+		0200DB0D13428E560049713F /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DABD134278350049713F /* encoding.c */; };
+		0200DB0E13428E560049713F /* login.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAC3134278350049713F /* login.c */; };
+		0200DB0F13428E560049713F /* base32.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAB3134278350049713F /* base32.c */; };
+		0200DB1013428E560049713F /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAB5134278350049713F /* base64.c */; };
+		0200DB1113428E560049713F /* base64u.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAF113427F820049713F /* base64u.c */; };
+		0200DB1213428E560049713F /* base128.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAB1134278350049713F /* base128.c */; };
+		0200DB1313428E560049713F /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAC6134278350049713F /* md5.c */; };
+		0200DB1413428E560049713F /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAB9134278350049713F /* common.c */; };
+		0200DB1513428E560049713F /* iodine.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAC1134278350049713F /* iodine.c */; };
+		0200DB1613428E560049713F /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAB7134278350049713F /* client.c */; };
+		0200DB1713428E560049713F /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DACF134278350049713F /* util.c */; };
+		0200DB1913428E560049713F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0200DA62134275380049713F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +64,27 @@
 			remoteInfo = Sodine;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0200DAE213427A000049713F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0200DB1A13428E560049713F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0200DA5C134275380049713F /* Sodine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sodine.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +162,16 @@
 		0200DADD134278350049713F /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
 		0200DADE134278350049713F /* user.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = user.c; sourceTree = "<group>"; };
 		0200DADF134278350049713F /* TODO */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		0200DAE413427A000049713F /* test-iodine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "test-iodine"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0200DAE813427A000049713F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0200DAEB13427A000049713F /* test-iodined-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-iodined-Prefix.pch"; sourceTree = "<group>"; };
+		0200DAEC13427A000049713F /* test_iodined.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = test_iodined.1; sourceTree = "<group>"; };
+		0200DAF113427F820049713F /* base64u.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64u.c; sourceTree = "<group>"; };
+		0200DAF213427F820049713F /* base64u.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64u.h; sourceTree = "<group>"; };
+		0200DAF5134289B20049713F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0200DAF6134289B20049713F /* test-iodined-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-iodined-Prefix.pch"; sourceTree = "<group>"; };
+		0200DAF7134289B20049713F /* test_iodined.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = test_iodined.1; sourceTree = "<group>"; };
+		0200DB1E13428E560049713F /* test-iodined copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "test-iodined copy"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,15 +195,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0200DAE113427A000049713F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0200DAE613427A000049713F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0200DB1813428E560049713F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0200DB1913428E560049713F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0200DA51134275370049713F = {
 			isa = PBXGroup;
 			children = (
+				0200DAF4134289B20049713F /* test-iodined */,
 				0200DA66134275380049713F /* Sodine */,
 				0200DA86134275380049713F /* SodineTests */,
 				0200DAA1134276810049713F /* Libraries */,
+				0200DAE713427A000049713F /* test-iodined */,
 				0200DA5F134275380049713F /* Frameworks */,
 				0200DA5D134275380049713F /* Products */,
 			);
@@ -152,6 +232,8 @@
 			children = (
 				0200DA5C134275380049713F /* Sodine.app */,
 				0200DA80134275380049713F /* SodineTests.octest */,
+				0200DAE413427A000049713F /* test-iodine */,
+				0200DB1E13428E560049713F /* test-iodined copy */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -257,6 +339,8 @@
 		0200DAB0134278350049713F /* src */ = {
 			isa = PBXGroup;
 			children = (
+				0200DAF113427F820049713F /* base64u.c */,
+				0200DAF213427F820049713F /* base64u.h */,
 				0200DAB1134278350049713F /* base128.c */,
 				0200DAB2134278350049713F /* base128.h */,
 				0200DAB3134278350049713F /* base32.c */,
@@ -313,6 +397,34 @@
 			path = tests;
 			sourceTree = "<group>";
 		};
+		0200DAE713427A000049713F /* test-iodined */ = {
+			isa = PBXGroup;
+			children = (
+				0200DAE813427A000049713F /* main.m */,
+				0200DAEC13427A000049713F /* test_iodined.1 */,
+				0200DAEA13427A000049713F /* Supporting Files */,
+			);
+			path = "test-iodined";
+			sourceTree = "<group>";
+		};
+		0200DAEA13427A000049713F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0200DAEB13427A000049713F /* test-iodined-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0200DAF4134289B20049713F /* test-iodined */ = {
+			isa = PBXGroup;
+			children = (
+				0200DAF5134289B20049713F /* main.m */,
+				0200DAF6134289B20049713F /* test-iodined-Prefix.pch */,
+				0200DAF7134289B20049713F /* test_iodined.1 */,
+			);
+			path = "test-iodined";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -352,6 +464,40 @@
 			productReference = 0200DA80134275380049713F /* SodineTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		0200DAE313427A000049713F /* test-iodine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0200DAED13427A000049713F /* Build configuration list for PBXNativeTarget "test-iodine" */;
+			buildPhases = (
+				0200DAE013427A000049713F /* Sources */,
+				0200DAE113427A000049713F /* Frameworks */,
+				0200DAE213427A000049713F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test-iodine";
+			productName = "test-iodined";
+			productReference = 0200DAE413427A000049713F /* test-iodine */;
+			productType = "com.apple.product-type.tool";
+		};
+		0200DB0813428E560049713F /* test-iodined */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0200DB1B13428E560049713F /* Build configuration list for PBXNativeTarget "test-iodined" */;
+			buildPhases = (
+				0200DB0913428E560049713F /* Sources */,
+				0200DB1813428E560049713F /* Frameworks */,
+				0200DB1A13428E560049713F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test-iodined";
+			productName = "test-iodined";
+			productReference = 0200DB1E13428E560049713F /* test-iodined copy */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -371,6 +517,8 @@
 			targets = (
 				0200DA5B134275380049713F /* Sodine */,
 				0200DA7F134275380049713F /* SodineTests */,
+				0200DAE313427A000049713F /* test-iodine */,
+				0200DB0813428E560049713F /* test-iodined */,
 			);
 		};
 /* End PBXProject section */
@@ -421,6 +569,7 @@
 				0200DA6E134275380049713F /* main.m in Sources */,
 				0200DA71134275380049713F /* SodineAppDelegate.m in Sources */,
 				0200DA77134275380049713F /* SodineViewController.m in Sources */,
+				0200DAF313427F820049713F /* base64u.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +578,48 @@
 			buildActionMask = 2147483647;
 			files = (
 				0200DA90134275380049713F /* SodineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0200DAE013427A000049713F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0200DB0413428A5D0049713F /* tun.c in Sources */,
+				0200DAFE13428A2A0049713F /* dns.c in Sources */,
+				0200DB0313428A5B0049713F /* read.c in Sources */,
+				0200DAFF13428A300049713F /* encoding.c in Sources */,
+				0200DB0113428A4F0049713F /* login.c in Sources */,
+				0200DAF8134289EA0049713F /* base32.c in Sources */,
+				0200DAFA13428A130049713F /* base64.c in Sources */,
+				0200DAFB13428A190049713F /* base64u.c in Sources */,
+				0200DAF913428A0D0049713F /* base128.c in Sources */,
+				0200DB0213428A540049713F /* md5.c in Sources */,
+				0200DAFD13428A250049713F /* common.c in Sources */,
+				0200DB0713428DE30049713F /* iodine.c in Sources */,
+				0200DAFC13428A200049713F /* client.c in Sources */,
+				0200DB0613428A660049713F /* util.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0200DB0913428E560049713F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0200DB0A13428E560049713F /* tun.c in Sources */,
+				0200DB0B13428E560049713F /* dns.c in Sources */,
+				0200DB0C13428E560049713F /* read.c in Sources */,
+				0200DB0D13428E560049713F /* encoding.c in Sources */,
+				0200DB0E13428E560049713F /* login.c in Sources */,
+				0200DB0F13428E560049713F /* base32.c in Sources */,
+				0200DB1013428E560049713F /* base64.c in Sources */,
+				0200DB1113428E560049713F /* base64u.c in Sources */,
+				0200DB1213428E560049713F /* base128.c in Sources */,
+				0200DB1313428E560049713F /* md5.c in Sources */,
+				0200DB1413428E560049713F /* common.c in Sources */,
+				0200DB1513428E560049713F /* iodine.c in Sources */,
+				0200DB1613428E560049713F /* client.c in Sources */,
+				0200DB1713428E560049713F /* util.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +773,80 @@
 			};
 			name = Release;
 		};
+		0200DAEE13427A000049713F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "test-iodined/test-iodined-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0200DAEF13427A000049713F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "test-iodined/test-iodined-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0200DB1C13428E560049713F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "test-iodined/test-iodined-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "test-iodined copy";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0200DB1D13428E560049713F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "test-iodined/test-iodined-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "test-iodined copy";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -611,6 +876,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		0200DAED13427A000049713F /* Build configuration list for PBXNativeTarget "test-iodine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0200DAEE13427A000049713F /* Debug */,
+				0200DAEF13427A000049713F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0200DB1B13428E560049713F /* Build configuration list for PBXNativeTarget "test-iodined" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0200DB1C13428E560049713F /* Debug */,
+				0200DB1D13428E560049713F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
