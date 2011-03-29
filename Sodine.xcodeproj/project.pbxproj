@@ -55,6 +55,61 @@
 		0200DA8C134275380049713F /* SodineTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SodineTests-Prefix.pch"; sourceTree = "<group>"; };
 		0200DA8D134275380049713F /* SodineTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SodineTests.h; sourceTree = "<group>"; };
 		0200DA8F134275380049713F /* SodineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SodineTests.m; sourceTree = "<group>"; };
+		0200DAA5134278350049713F /* CHANGELOG */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
+		0200DAA7134278350049713F /* iodine.te */ = {isa = PBXFileReference; lastKnownFileType = text; path = iodine.te; sourceTree = "<group>"; };
+		0200DAA8134278350049713F /* proto_00000402.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = proto_00000402.txt; sourceTree = "<group>"; };
+		0200DAA9134278350049713F /* proto_00000500.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = proto_00000500.txt; sourceTree = "<group>"; };
+		0200DAAA134278350049713F /* proto_00000502.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = proto_00000502.txt; sourceTree = "<group>"; };
+		0200DAAB134278350049713F /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		0200DAAD134278350049713F /* iodine.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iodine.8; sourceTree = "<group>"; };
+		0200DAAE134278350049713F /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		0200DAAF134278350049713F /* README-win32.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "README-win32.txt"; sourceTree = "<group>"; };
+		0200DAB1134278350049713F /* base128.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = base128.c; sourceTree = "<group>"; };
+		0200DAB2134278350049713F /* base128.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base128.h; sourceTree = "<group>"; };
+		0200DAB3134278350049713F /* base32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = base32.c; sourceTree = "<group>"; };
+		0200DAB4134278350049713F /* base32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base32.h; sourceTree = "<group>"; };
+		0200DAB5134278350049713F /* base64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		0200DAB6134278350049713F /* base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		0200DAB7134278350049713F /* client.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
+		0200DAB8134278350049713F /* client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		0200DAB9134278350049713F /* common.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = common.c; sourceTree = "<group>"; };
+		0200DABA134278350049713F /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		0200DABB134278350049713F /* dns.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dns.c; sourceTree = "<group>"; };
+		0200DABC134278350049713F /* dns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dns.h; sourceTree = "<group>"; };
+		0200DABD134278350049713F /* encoding.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = encoding.c; sourceTree = "<group>"; };
+		0200DABE134278350049713F /* encoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = encoding.h; sourceTree = "<group>"; };
+		0200DABF134278350049713F /* fw_query.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fw_query.c; sourceTree = "<group>"; };
+		0200DAC0134278350049713F /* fw_query.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fw_query.h; sourceTree = "<group>"; };
+		0200DAC1134278350049713F /* iodine.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = iodine.c; sourceTree = "<group>"; };
+		0200DAC2134278350049713F /* iodined.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = iodined.c; sourceTree = "<group>"; };
+		0200DAC3134278350049713F /* login.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = login.c; sourceTree = "<group>"; };
+		0200DAC4134278350049713F /* login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = login.h; sourceTree = "<group>"; };
+		0200DAC5134278350049713F /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		0200DAC6134278350049713F /* md5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
+		0200DAC7134278350049713F /* md5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		0200DAC8134278350049713F /* osflags */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = osflags; sourceTree = "<group>"; };
+		0200DAC9134278350049713F /* read.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = read.c; sourceTree = "<group>"; };
+		0200DACA134278350049713F /* read.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = read.h; sourceTree = "<group>"; };
+		0200DACB134278350049713F /* tun.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tun.c; sourceTree = "<group>"; };
+		0200DACC134278350049713F /* tun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tun.h; sourceTree = "<group>"; };
+		0200DACD134278350049713F /* user.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = user.c; sourceTree = "<group>"; };
+		0200DACE134278350049713F /* user.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = user.h; sourceTree = "<group>"; };
+		0200DACF134278350049713F /* util.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		0200DAD0134278350049713F /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		0200DAD1134278350049713F /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		0200DAD2134278350049713F /* windows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = windows.h; sourceTree = "<group>"; };
+		0200DAD4134278350049713F /* base32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = base32.c; sourceTree = "<group>"; };
+		0200DAD5134278350049713F /* base64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		0200DAD6134278350049713F /* dns.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dns.c; sourceTree = "<group>"; };
+		0200DAD7134278350049713F /* encoding.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = encoding.c; sourceTree = "<group>"; };
+		0200DAD8134278350049713F /* fw_query.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fw_query.c; sourceTree = "<group>"; };
+		0200DAD9134278350049713F /* login.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = login.c; sourceTree = "<group>"; };
+		0200DADA134278350049713F /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		0200DADB134278350049713F /* read.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = read.c; sourceTree = "<group>"; };
+		0200DADC134278350049713F /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		0200DADD134278350049713F /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		0200DADE134278350049713F /* user.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = user.c; sourceTree = "<group>"; };
+		0200DADF134278350049713F /* TODO */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +141,7 @@
 			children = (
 				0200DA66134275380049713F /* Sodine */,
 				0200DA86134275380049713F /* SodineTests */,
+				0200DAA1134276810049713F /* Libraries */,
 				0200DA5F134275380049713F /* Frameworks */,
 				0200DA5D134275380049713F /* Products */,
 			);
@@ -153,6 +209,108 @@
 				0200DA8C134275380049713F /* SodineTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0200DAA1134276810049713F /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				0200DAA3134276AC0049713F /* iodine */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		0200DAA3134276AC0049713F /* iodine */ = {
+			isa = PBXGroup;
+			children = (
+				0200DAA5134278350049713F /* CHANGELOG */,
+				0200DAA6134278350049713F /* doc */,
+				0200DAAB134278350049713F /* Makefile */,
+				0200DAAC134278350049713F /* man */,
+				0200DAAE134278350049713F /* README */,
+				0200DAAF134278350049713F /* README-win32.txt */,
+				0200DAB0134278350049713F /* src */,
+				0200DAD3134278350049713F /* tests */,
+				0200DADF134278350049713F /* TODO */,
+			);
+			path = iodine;
+			sourceTree = "<group>";
+		};
+		0200DAA6134278350049713F /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				0200DAA7134278350049713F /* iodine.te */,
+				0200DAA8134278350049713F /* proto_00000402.txt */,
+				0200DAA9134278350049713F /* proto_00000500.txt */,
+				0200DAAA134278350049713F /* proto_00000502.txt */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		0200DAAC134278350049713F /* man */ = {
+			isa = PBXGroup;
+			children = (
+				0200DAAD134278350049713F /* iodine.8 */,
+			);
+			path = man;
+			sourceTree = "<group>";
+		};
+		0200DAB0134278350049713F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0200DAB1134278350049713F /* base128.c */,
+				0200DAB2134278350049713F /* base128.h */,
+				0200DAB3134278350049713F /* base32.c */,
+				0200DAB4134278350049713F /* base32.h */,
+				0200DAB5134278350049713F /* base64.c */,
+				0200DAB6134278350049713F /* base64.h */,
+				0200DAB7134278350049713F /* client.c */,
+				0200DAB8134278350049713F /* client.h */,
+				0200DAB9134278350049713F /* common.c */,
+				0200DABA134278350049713F /* common.h */,
+				0200DABB134278350049713F /* dns.c */,
+				0200DABC134278350049713F /* dns.h */,
+				0200DABD134278350049713F /* encoding.c */,
+				0200DABE134278350049713F /* encoding.h */,
+				0200DABF134278350049713F /* fw_query.c */,
+				0200DAC0134278350049713F /* fw_query.h */,
+				0200DAC1134278350049713F /* iodine.c */,
+				0200DAC2134278350049713F /* iodined.c */,
+				0200DAC3134278350049713F /* login.c */,
+				0200DAC4134278350049713F /* login.h */,
+				0200DAC5134278350049713F /* Makefile */,
+				0200DAC6134278350049713F /* md5.c */,
+				0200DAC7134278350049713F /* md5.h */,
+				0200DAC8134278350049713F /* osflags */,
+				0200DAC9134278350049713F /* read.c */,
+				0200DACA134278350049713F /* read.h */,
+				0200DACB134278350049713F /* tun.c */,
+				0200DACC134278350049713F /* tun.h */,
+				0200DACD134278350049713F /* user.c */,
+				0200DACE134278350049713F /* user.h */,
+				0200DACF134278350049713F /* util.c */,
+				0200DAD0134278350049713F /* util.h */,
+				0200DAD1134278350049713F /* version.h */,
+				0200DAD2134278350049713F /* windows.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0200DAD3134278350049713F /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				0200DAD4134278350049713F /* base32.c */,
+				0200DAD5134278350049713F /* base64.c */,
+				0200DAD6134278350049713F /* dns.c */,
+				0200DAD7134278350049713F /* encoding.c */,
+				0200DAD8134278350049713F /* fw_query.c */,
+				0200DAD9134278350049713F /* login.c */,
+				0200DADA134278350049713F /* Makefile */,
+				0200DADB134278350049713F /* read.c */,
+				0200DADC134278350049713F /* test.c */,
+				0200DADD134278350049713F /* test.h */,
+				0200DADE134278350049713F /* user.c */,
+			);
+			path = tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,6 +601,7 @@
 				0200DA95134275380049713F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0200DA96134275380049713F /* Build configuration list for PBXNativeTarget "SodineTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +610,7 @@
 				0200DA98134275380049713F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
