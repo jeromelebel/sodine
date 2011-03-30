@@ -8,8 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SodineViewController : UIViewController {
-    
+@class SDIodine;
+
+@interface SodineViewController : UIViewController
+{
+    IBOutlet UITextField *_topDomain;
+    IBOutlet UITextField *_password;
+
+    SDIodine *_iodine;
 }
+
+- (IBAction)startAction:(id)sender;
 
 @end

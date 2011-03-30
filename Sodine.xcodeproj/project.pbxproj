@@ -71,6 +71,7 @@
 		0200DB311342A5600049713F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0200DB301342A5600049713F /* libz.dylib */; };
 		0200DB331342A6490049713F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAF5134289B20049713F /* main.m */; };
 		0200DB341342A64D0049713F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAF5134289B20049713F /* main.m */; };
+		0200DB371342A84A0049713F /* SDIodine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200DB361342A84A0049713F /* SDIodine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,6 +193,8 @@
 		0200DB1E13428E560049713F /* test-iodined copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "test-iodined copy"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0200DB201342A2450049713F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = SDKs/MacOSX10.6.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
 		0200DB301342A5600049713F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0200DB351342A84A0049713F /* SDIodine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDIodine.h; sourceTree = "<group>"; };
+		0200DB361342A84A0049713F /* SDIodine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDIodine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +285,8 @@
 				0200DA76134275380049713F /* SodineViewController.m */,
 				0200DA78134275380049713F /* SodineViewController.xib */,
 				0200DA67134275380049713F /* Supporting Files */,
+				0200DB351342A84A0049713F /* SDIodine.h */,
+				0200DB361342A84A0049713F /* SDIodine.m */,
 			);
 			path = Sodine;
 			sourceTree = "<group>";
@@ -616,6 +621,7 @@
 				0200DB2D1342A53C0049713F /* iodine.c in Sources */,
 				0200DB2E1342A5420049713F /* client.c in Sources */,
 				0200DB2F1342A54F0049713F /* util.c in Sources */,
+				0200DB371342A84A0049713F /* SDIodine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
