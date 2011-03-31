@@ -14,3 +14,6 @@
 #endif
 
 #define DARWIN
+#ifndef TARGET_OS_IPHONE
+#define TARGET_OS_IPHONE 1
+#endif

@@ -49,6 +49,9 @@
 		0200DB1213428E560049713F /* base128.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAB1134278350049713F /* base128.c */; };
 		0200DB1313428E560049713F /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAC6134278350049713F /* md5.c */; };
 		0200DB1413428E560049713F /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAB9134278350049713F /* common.c */; };
+		0200DB1513428E560049713F /* iodine.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAC1134278350049713F /* iodine.c */; };
+		0200DB1613428E560049713F /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAB7134278350049713F /* client.c */; };
+		0200DB1713428E560049713F /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DACF134278350049713F /* util.c */; };
 		0200DB1913428E560049713F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0200DA62134275380049713F /* Foundation.framework */; };
 		0200DB211342A2450049713F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0200DB201342A2450049713F /* libz.dylib */; };
 		0200DB221342A2680049713F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0200DB201342A2450049713F /* libz.dylib */; };
@@ -69,9 +72,8 @@
 		0200DB331342A6490049713F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAF5134289B20049713F /* main.m */; };
 		0200DB341342A64D0049713F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAF5134289B20049713F /* main.m */; };
 		0200DB371342A84A0049713F /* SDIodine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200DB361342A84A0049713F /* SDIodine.m */; };
-		02AC8D1A1344141700A21776 /* iodined.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAC2134278350049713F /* iodined.c */; };
-		02AC8D1B1344144F00A21776 /* user.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DACD134278350049713F /* user.c */; };
-		02AC8D1D1344165400A21776 /* fw_query.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DABF134278350049713F /* fw_query.c */; };
+		02CDCFD9134497D10087522E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CDCFD8134497D10087522E /* SystemConfiguration.framework */; };
+		02CDCFE61344A7700087522E /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CDCFE51344A7700087522E /* libresolv.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -195,6 +197,8 @@
 		0200DB301342A5600049713F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		0200DB351342A84A0049713F /* SDIodine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDIodine.h; sourceTree = "<group>"; };
 		0200DB361342A84A0049713F /* SDIodine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDIodine.m; sourceTree = "<group>"; };
+		02CDCFD8134497D10087522E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		02CDCFE51344A7700087522E /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +206,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02CDCFE61344A7700087522E /* libresolv.dylib in Frameworks */,
+				02CDCFD9134497D10087522E /* SystemConfiguration.framework in Frameworks */,
 				0200DB311342A5600049713F /* libz.dylib in Frameworks */,
 				0200DA61134275380049713F /* UIKit.framework in Frameworks */,
 				0200DA63134275380049713F /* Foundation.framework in Frameworks */,
@@ -243,6 +249,7 @@
 		0200DA51134275370049713F = {
 			isa = PBXGroup;
 			children = (
+				02CDCFE51344A7700087522E /* libresolv.dylib */,
 				0200DAF4134289B20049713F /* test-iodined */,
 				0200DA66134275380049713F /* Sodine */,
 				0200DA86134275380049713F /* SodineTests */,
@@ -280,13 +287,13 @@
 			children = (
 				0200DA6F134275380049713F /* SodineAppDelegate.h */,
 				0200DA70134275380049713F /* SodineAppDelegate.m */,
-				0200DA72134275380049713F /* MainWindow.xib */,
 				0200DA75134275380049713F /* SodineViewController.h */,
 				0200DA76134275380049713F /* SodineViewController.m */,
-				0200DA78134275380049713F /* SodineViewController.xib */,
-				0200DA67134275380049713F /* Supporting Files */,
 				0200DB351342A84A0049713F /* SDIodine.h */,
 				0200DB361342A84A0049713F /* SDIodine.m */,
+				0200DA72134275380049713F /* MainWindow.xib */,
+				0200DA78134275380049713F /* SodineViewController.xib */,
+				0200DA67134275380049713F /* Supporting Files */,
 			);
 			path = Sodine;
 			sourceTree = "<group>";
@@ -459,6 +466,7 @@
 			children = (
 				0200DB301342A5600049713F /* libz.dylib */,
 				0200DA60134275380049713F /* UIKit.framework */,
+				02CDCFD8134497D10087522E /* SystemConfiguration.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -671,9 +679,9 @@
 				0200DB1213428E560049713F /* base128.c in Sources */,
 				0200DB1313428E560049713F /* md5.c in Sources */,
 				0200DB1413428E560049713F /* common.c in Sources */,
-				02AC8D1A1344141700A21776 /* iodined.c in Sources */,
-				02AC8D1B1344144F00A21776 /* user.c in Sources */,
-				02AC8D1D1344165400A21776 /* fw_query.c in Sources */,
+				0200DB1513428E560049713F /* iodine.c in Sources */,
+				0200DB1613428E560049713F /* client.c in Sources */,
+				0200DB1713428E560049713F /* util.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
