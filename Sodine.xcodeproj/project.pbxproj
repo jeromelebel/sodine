@@ -478,6 +478,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0200DA93134275380049713F /* Build configuration list for PBXNativeTarget "Sodine" */;
 			buildPhases = (
+				0230C3A0134535DD005C7E0F /* get iodine submodule */,
 				0200DA58134275380049713F /* Sources */,
 				0200DA59134275380049713F /* Frameworks */,
 				0200DA5A134275380049713F /* Resources */,
@@ -604,6 +605,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		0230C3A0134535DD005C7E0F /* get iodine submodule */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "get iodine submodule";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "git submodule update --init\ncd Libraries/iodine\ngit branch --track sodine origin/sodine\ngit checkout sodine\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
