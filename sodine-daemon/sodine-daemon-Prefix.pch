@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'sodine-daemon' target in the 'sodine-daemon' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
+
+#ifndef DARWIN
+#define DARWIN
+#endif
