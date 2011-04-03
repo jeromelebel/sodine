@@ -69,6 +69,7 @@
 		0200DB331342A6490049713F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAF5134289B20049713F /* main.m */; };
 		0200DB341342A64D0049713F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200DAF5134289B20049713F /* main.m */; };
 		0200DB371342A84A0049713F /* SDIodine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200DB361342A84A0049713F /* SDIodine.m */; };
+		022A89071348C31900AB02E7 /* SDIodineServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 022A89061348C31900AB02E7 /* SDIodineServer.m */; };
 		02C7F3091348934700659E73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0200DA62134275380049713F /* Foundation.framework */; };
 		02C7F30C1348934700659E73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C7F30B1348934700659E73 /* main.m */; };
 		02C7F31413489FCA00659E73 /* tun.c in Sources */ = {isa = PBXBuildFile; fileRef = 0200DACB134278350049713F /* tun.c */; };
@@ -223,6 +224,8 @@
 		0200DB301342A5600049713F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		0200DB351342A84A0049713F /* SDIodine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDIodine.h; sourceTree = "<group>"; };
 		0200DB361342A84A0049713F /* SDIodine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDIodine.m; sourceTree = "<group>"; };
+		022A89051348C31900AB02E7 /* SDIodineServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDIodineServer.h; sourceTree = "<group>"; };
+		022A89061348C31900AB02E7 /* SDIodineServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDIodineServer.m; sourceTree = "<group>"; };
 		02C7F3071348934700659E73 /* sodine-daemon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "sodine-daemon"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C7F30B1348934700659E73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		02C7F30E1348934700659E73 /* sodine-daemon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sodine-daemon-Prefix.pch"; sourceTree = "<group>"; };
@@ -518,6 +521,8 @@
 			isa = PBXGroup;
 			children = (
 				02C7F30B1348934700659E73 /* main.m */,
+				022A89051348C31900AB02E7 /* SDIodineServer.h */,
+				022A89061348C31900AB02E7 /* SDIodineServer.m */,
 				02C7F30F1348934700659E73 /* sodine_daemon.1 */,
 				02C7F30D1348934700659E73 /* Supporting Files */,
 			);
@@ -798,6 +803,7 @@
 				02C7F3221348A27300659E73 /* iodined.c in Sources */,
 				02C7F3231348A27D00659E73 /* user.c in Sources */,
 				02C7F3241348A28300659E73 /* fw_query.c in Sources */,
+				022A89071348C31900AB02E7 /* SDIodineServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
