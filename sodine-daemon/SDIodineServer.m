@@ -113,8 +113,8 @@ int tunnel(int tun_fd, int dns_fd, int bind_fd);
 	}
 	
 	if (strlen(password) == 0) {
-		if (NULL != getenv(PASSWORD_ENV_VAR))
-			snprintf(password, sizeof(password), "%s", getenv(PASSWORD_ENV_VAR));
+		if (NULL != getenv(SERVER_PASSWORD_ENV_VAR))
+			snprintf(password, sizeof(password), "%s", getenv(SERVER_PASSWORD_ENV_VAR));
 		else
 			read_password(password, sizeof(password));
 	}

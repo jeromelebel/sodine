@@ -20,6 +20,8 @@
     int _autoDetectFragmentSize;
     int _maxDownStreamFragmentSize;
     NSString *_password;
+
+    int _dnsFD;
 }
 
 @property(nonatomic, readwrite, retain) NSString *nameServerAddress;
