@@ -23,7 +23,7 @@ int main (int argc, const char * argv[])
     }
     if (topDomain) {
         iodineServer = [[SDIodineServer alloc] init];
-        iodineServer.port = 5353;
+        iodineServer.port = 5360;
         iodineServer.topDomain = topDomain;
         iodineServer.passwordValue = password;
         [iodineServer run];
