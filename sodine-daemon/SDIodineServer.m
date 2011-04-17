@@ -68,7 +68,7 @@ int tunnel(int tun_fd, int dns_fd, int bind_fd);
 {
 	char *context;
 	int dnsd_fd;
-	int tun_fd;
+	int tun_fd = 0;
     
 	/* settings for forwarding normal DNS to 
 	 * local real DNS server */
